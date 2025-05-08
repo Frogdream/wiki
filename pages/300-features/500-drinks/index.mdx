@@ -10,44 +10,234 @@ title: Список напитков
 
 <Drinks>
 
-<DrinkCraft
-  name="Бальзам"
-  recipe={{
-    items: [
-      { name: "moss_block", displayName: "Блок мха" },
-      { name: "fern", displayName: "Папоротник" },
-      { name: "brown_mushroom", displayName: "Гриб" },
-      { name: "prismarine_shard", displayName: "Осколок призмарина" },
-      { name: "glass_bottle", displayName: "Бутылка" },
-    ],
-    workbench: "Дистиллятор",
-    time: 10,
-  }}
->
-  Этот магический напиток обладает целебными свойствами. Выпив бальзам, игрок
-  моментально чувствует приход сил. Напиток увеличивает выносливость.
-</DrinkCraft>
+    <DrinkCraft
+        name="Бальзам"
+        recipe={{
+            items: [
+                {name: "Moss_Block", displayName: "Блок мха"},
+                {name: "Fern", displayName: "Папоротник"},
+                {name: "Brown_Mushroom", displayName: "Гриб"},
+                {name: "Prismarine_Shard", displayName: "Осколок призмарина"},
+                {name: "Glass_Bottle", displayName: "Бутылочка"},
+            ],
+            workbench: "Дистиллятор",
+            time: 10,
+        }}
+    >
+        Этот магический напиток обладает целебными свойствами. Выпив бальзам, игрок
+        моментально чувствует приход сил. Напиток увеличивает выносливость.
+    </DrinkCraft>
 
-<DrinkCraft
-  name="Бальзам"
-  recipe={{
-    items: [
-      { name: "moss_block", displayName: "Блок мха" },
-      { name: "fern", displayName: "Папоротник" },
-      { name: "brown_mushroom", displayName: "Гриб" },
-      { name: "prismarine_shard", displayName: "Осколок призмарина" },
-      { name: "glass_bottle", displayName: "Бутылка" },
-    ],
-    workbench: "Дистиллятор",
-    time: 10,
-  }}
->
-  Этот магический напиток обладает целебными свойствами. Выпив бальзам, игрок
-  моментально чувствует приход сил. Напиток увеличивает выносливость.
-</DrinkCraft>
+    <DrinkCraft
+        name="Бренди"
+        recipe={{
+            items: [
+                {name: "Glow_Berries", displayName: "Светящиеся ягоды"},
+                {name: "Kelp", displayName: "Ламинария"},
+                {name: "Rabbit's_Foot", displayName: "Кроличья лапка"},
+                {name: "Glass_Bottle", displayName: "Бутылочка"},
+            ],
+            workbench: "Дистиллятор",
+            time: 15,
+        }}
+    >
+        Довольно-таки крепкий напиток, который отличается своим насыщенным вкусом.
+        Следует пить с осторожностью.
+    </DrinkCraft>
+
+    <DrinkCraft
+        name="Виски"
+        recipe={{
+            items: [
+                {name: "Wheat", displayName: "Пшеница"},
+                {name: "Sugar", displayName: "Сахар"},
+                {name: "Crimson_Fungus", displayName: "Багровый гриб"},
+                {name: "Eye_of_Ender", displayName: "Око Эндера"},
+                {name: "Glass_Bottle", displayName: "Бутылочка"},
+            ],
+            workbench: "Варочный аппарат",
+            time: 20,
+        }}
+    >
+        Для элит. Крепкий напиток, созданный из лучших сортов пшеницы, сахара и... эм, грибов?
+        Дарует временное сопротивление урону.
+    </DrinkCraft>
+
+    <DrinkCraft
+        name="Ликёр"
+        recipe={{
+            items: [
+                {name: "Glowstone_Dust", displayName: "Светокаменная пыль"},
+                {name: "Sugar", displayName: "Сахар"},
+                {name: "Rabbit's_Foot", displayName: "Кроличья лапка"},
+                {name: "Glow_Berries", displayName: "Светящиеся ягоды"},
+                {name: "Glass_Bottle", displayName: "Бутылочка"},
+            ],
+            workbench: "Дистиллятор",
+            time: 20,
+        }}
+    >
+        Сладкий и ароматный напиток, созданный из отборных ягод.
+        Ликёр увеличивает магическую силу.
+    </DrinkCraft>
+
+    <DrinkCraft
+        name="Водка"
+        recipe={{
+            items: [
+                {name: "Wheat", displayName: "Пшеница"},
+                {name: "Rabbit's_Foot", displayName: "Кроличья лапка"},
+                {name: "Wheat_Seeds", displayName: "Семена пшеницы"},
+                {name: "Bone_Meal", displayName: "Костная мука"},
+                {name: "Glass_Bottle", displayName: "Бутылочка"},
+            ],
+            workbench: "Дистиллятор",
+            time: 15,
+        }}
+    >
+        Чистая. Крепкая. Всё как мы любим. Водка быстро восстанавливает здоровье и даёт кратковременное усиление
+        выносливости.
+    </DrinkCraft>
+
+    <DrinkCraft
+        name="Медовуха"
+        recipe={{
+            items: [
+                {name: "Blaze_Powder", displayName: "Огненный порошок"},
+                {name: "Snowball", displayName: "Снежок"},
+                {name: "Feather", displayName: "Перо"},
+                {name: "Honey_Bottle", displayName: "Бутылочка мёда"},
+            ],
+            workbench: "Варочный аппарат",
+            time: 10,
+        }}
+    >
+        Ароматный и сладкий напиток, созданный из ферментированного мёда.
+        Медовуха временно повышает скорость.
+    </DrinkCraft>
+
+    <DrinkCraft
+        name="Пиво"
+        recipe={{
+            items: [
+                {name: "Bread", displayName: "Хлеб"},
+                {name: "Potato", displayName: "Картофель"},
+                {name: "Dried_Kelp", displayName: "Сушённая ламинария"},
+                {name: "Glass_Bottle", displayName: "Бутылка"},
+            ],
+            workbench: "Варочный аппарат",
+            time: 25,
+        }}
+    >
+        Это, так сказать, база.
+
+        Этот напиток идеально подходит для отдыха после долгих приключений и сражений.
+    </DrinkCraft>
+
+    <DrinkCraft
+        name="Ром"
+        recipe={{
+            items: [
+                {name: "Sugar", displayName: "Сахар"},
+                {name: "Beetroot", displayName: "Свёкла"},
+                {name: "Bamboo", displayName: "Бамбук"},
+                {name: "Fern", displayName: "Папоротник"},
+                {name: "Lily_Pad", displayName: "Кувшинка"},
+                {name: "Glass_Bottle", displayName: "Бутылочка"},
+            ],
+            workbench: "Дистиллятор",
+            time: 20,
+        }}
+    >
+        Ароматный и крепкий напиток, изготовленный из ферментированного тростникового сахара.
+        Морской напиток бесстрашных пиратов.
+    </DrinkCraft>
+
+    <DrinkCraft
+        name="Шампанское"
+        recipe={{
+            items: [
+                {name: "Glow_Berries", displayName: "Светящиеся ягоды"},
+                {name: "Apple", displayName: "Яблоко"},
+                {name: "Sweet_Berries", displayName: "Сладкие ягоды"},
+                {name: "Glass_Bottle", displayName: "Бутылочка"},
+            ],
+            workbench: "Дистиллятор",
+            time: 15,
+        }}
+    >
+        Изысканный и искрящийся напиток. Восстанавливает здоровье и дарует увеличение удачи, повышая шанс на добычу
+        редких предметов.
+    </DrinkCraft>
 
 </Drinks>
 
 ## Безалкогольные
 
-???
+<Drinks>
+    <DrinkCraft
+        name="Какао"
+        recipe={{
+            items: [
+                {name: "Glowstone_Dust", displayName: "Светокаменная пыль"},
+                {name: "Cocoa_Beans", displayName: "Какао-бобы"},
+                {name: "Glass_Bottle", displayName: "Бутылочка"},
+            ],
+            workbench: "Варочный аппарат",
+            time: 5,
+        }}
+    >
+        Тёплый и насыщенный напиток, приготовленный из богатого какао.
+        Какао восстанавливает здоровье.
+    </DrinkCraft>
+
+    <DrinkCraft
+        name="Кофе"
+        recipe={{
+            items: [
+                {name: "Sugar", displayName: "Сахар"},
+                {name: "Cocoa_Beans", displayName: "Какао-бобы"},
+                {name: "Glass_Bottle", displayName: "Бутылочка"},
+            ],
+            workbench: "Варочный аппарат",
+            time: 5,
+        }}
+    >
+        Энергизирующий напиток, приготовленный из кофейных зёрен.
+        Кофе восстанавливает здоровье и временно увеличивает скорость передвижения.
+    </DrinkCraft>
+
+    <DrinkCraft
+        name="Лимонад"
+        recipe={{
+            items: [
+                {name: "Golden_Apple", displayName: "Золотое яблоко"},
+                {name: "Glass_Bottle", displayName: "Бутылочка"},
+            ],
+            workbench: "Варочный аппарат",
+            time: 5,
+        }}
+    >
+        Освежающий напиток, приготовленный из свежевыжатого лимонного сока и сахара.
+        Лимонад прилично восстанавливает здоровье.
+    </DrinkCraft>
+
+    <DrinkCraft
+        name="Эль-кубелиус"
+        recipe={{
+            items: [
+                {name: "Raw_Gold", displayName: "Рудное золото"},
+                {name: "Recovery_Compass.gif", displayName: "Возвратный компас"},
+                {name: "Netherite_Scrap", displayName: "Незеритовый лом"},
+                {name: "Turtle_Scute", displayName: "Черепаший щиток"},
+                {name: "Glass_Bottle", displayName: "Бутылочка"},
+            ],
+            workbench: "Варочный аппарат",
+            time: 30,
+        }}
+    >
+        Об этом напитке ничего, кроме названия, неизвестно
+        Возможно, это что-то очень мощное...
+    </DrinkCraft>
+
+</Drinks>
